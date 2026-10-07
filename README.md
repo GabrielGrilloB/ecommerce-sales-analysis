@@ -94,11 +94,11 @@ Média de Dias para Envio = ROUND(AVERAGE(fVendas[Dias para Envio]), 2)
 Dias para Envio = Duration.Days([Ship Date] - [Order Date])
 ```
 
----
 
 ## Dashboard
 
-<img width="2000" height="1125" alt="DIAGRAMA_page-0001 (1)" src="https://github.com/user-attachments/assets/16596958-a439-4176-abbd-4c1b50b903df" />
+<img width="1485" height="816" alt="Dashboard" src="https://github.com/user-attachments/assets/1a9601a9-f22c-4913-ad9c-2f6f5c2bad51" />
+
 
 ---
 
