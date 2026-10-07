@@ -1,0 +1,5 @@
+EVALUATE
+SUMMARIZECOLUMNS(
+    'Dlocalização'[Region],
+    "Receita Total", [Receita Total]
+)

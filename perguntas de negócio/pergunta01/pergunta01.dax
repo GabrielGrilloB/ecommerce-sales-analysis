@@ -1,0 +1,5 @@
+EVALUATE
+SUMMARIZECOLUMNS(
+    Dprodutos[Category],
+    "Receita Total", [Receita Total]
+)
