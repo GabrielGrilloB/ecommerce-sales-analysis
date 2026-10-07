@@ -12,9 +12,13 @@ Dataset público do Kaggle — [Superstore Sales Dataset](https://www.kaggle.com
 - DAX
 - Power Query (M)
 
-## Modelagem
+## Conjunto de Dados
 
-O dataset original foi transformado em um modelo estrela com as seguintes tabelas:
+Os dados utilizados neste projeto são provenientes de um dataset público do Kaggle e foram organizados em 5 tabelas seguindo um modelo estrela, separando as informações em dimensões e uma tabela fato central.
+
+O modelo lógico do banco de dados é apresentado no seguinte formato:
+
+<img width="2000" height="1125" alt="DIAGRAMA_page-0001 (1)" src="https://github.com/user-attachments/assets/b2fa20eb-cadf-40c2-bf70-4f185dcbf2fd" />
 
 - `fVendas` — tabela fato com as transações de venda
 - `DClientes` — dimensão de clientes e segmentos
@@ -102,11 +106,4 @@ Dias para Envio = Duration.Days([Ship Date] - [Order Date])
 
 ---
 
-## Conjunto de Dados
-
-Os dados utilizados neste projeto são provenientes de um dataset público do Kaggle e foram organizados em 5 tabelas seguindo um modelo estrela, separando as informações em dimensões e uma tabela fato central.
-
-O modelo lógico do banco de dados é apresentado no seguinte formato:
-
-<img width="2000" height="1125" alt="DIAGRAMA_page-0001 (1)" src="https://github.com/user-attachments/assets/b2fa20eb-cadf-40c2-bf70-4f185dcbf2fd" />
 
