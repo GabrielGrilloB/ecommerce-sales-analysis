@@ -98,8 +98,15 @@ Dias para Envio = Duration.Days([Ship Date] - [Order Date])
 
 ## Dashboard
 
-![Dashboard](dashboard.png)
+<img width="2000" height="1125" alt="DIAGRAMA_page-0001 (1)" src="https://github.com/user-attachments/assets/16596958-a439-4176-abbd-4c1b50b903df" />
 
-## Diagrama
-[DIAGRAMA.pdf](https://github.com/user-attachments/files/33180429/DIAGRAMA.pdf)
+---
+
+## Conjunto de Dados
+
+Os dados utilizados neste projeto são provenientes de um dataset público do Kaggle e foram organizados em 5 tabelas seguindo um modelo estrela, separando as informações em dimensões e uma tabela fato central.
+
+O modelo lógico do banco de dados é apresentado no seguinte formato:
+
+<img width="2000" height="1125" alt="DIAGRAMA_page-0001 (1)" src="https://github.com/user-attachments/assets/b2fa20eb-cadf-40c2-bf70-4f185dcbf2fd" />
 
